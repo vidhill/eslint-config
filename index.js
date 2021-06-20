@@ -1,9 +1,6 @@
 module.exports = {
     plugins: ['prettier', 'import', 'unicorn'],
     extends: ['eslint:recommended'],
-    parserOptions: {
-        ecmaVersion: 12,
-    },
     rules: {
         'prettier/prettier': 'error',
         'no-console': 'error',
