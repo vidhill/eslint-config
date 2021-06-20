@@ -1,0 +1,41 @@
+{
+    "name": "eslint-config-vidhill",
+    "version": "1.0.0",
+    "description": "Personal eslint config preferences for own open source projects",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier \"**/*.{js,json,md}\"",
+        "lint": "npm run prettier -- --check",
+        "lint:fix": "npm run prettier -- --write",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vidhill/eslint-config.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "author": "David Hill",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vidhill/eslint-config/issues"
+    },
+    "homepage": "https://github.com/vidhill/eslint-config#readme",
+    "peerDependencies": {
+        "eslint": "7.x",
+        "eslint-config-prettier": "8.x",
+        "eslint-plugin-import": "2.x",
+        "eslint-plugin-jest": "24.x",
+        "eslint-plugin-prettier": "3.x",
+        "eslint-plugin-unicorn": "33.x"
+    },
+    "optionalDependencies": {
+        "eslint-plugin-node": "11.x"
+    },
+    "devDependencies": {
+        "husky": "^6.0.0",
+        "prettier": "2.3.1"
+    }
+}
