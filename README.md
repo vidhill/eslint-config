@@ -8,9 +8,11 @@ $ npm install eslint-config-vidhill --save-dev
 
 ## Setup
 
+In `.eslintrc.js` add
+
 ```javascript
 module.exports = {
-    extends: 'vidhill',
+    extends: ['vidhill'],
 };
 ```
 
