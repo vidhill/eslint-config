@@ -8,7 +8,7 @@
         "lint": "npm run prettier -- --check",
         "lint:fix": "npm run prettier -- --write",
         "prepare": "husky install",
-        "release": "np"
+        "release": "np --no-tests"
     },
     "repository": {
         "type": "git",
