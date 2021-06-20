@@ -1,5 +1,5 @@
 module.exports = {
-    plugins: ['prettier', 'import', 'unicorn'],
+    plugins: ['prettier', 'import', 'unicorn', 'eslint-comments'],
     extends: ['eslint:recommended'],
     rules: {
         'prettier/prettier': 'error',
