@@ -24,6 +24,7 @@ module.exports = {
         ],
         'import/newline-after-import': 'error',
         'import/group-exports': 'error',
+        'eslint-comments/no-unused-disable': 'error',
     },
     overrides: [
         {
