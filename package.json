@@ -35,7 +35,7 @@
         "eslint-plugin-node": "11.x"
     },
     "devDependencies": {
-        "prettier": "2.3.1",
-        "husky": "^6.0.0"
+        "husky": "^6.0.0",
+        "prettier": "2.3.1"
     }
 }
