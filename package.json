@@ -25,21 +25,21 @@
     },
     "homepage": "https://github.com/vidhill/eslint-config#readme",
     "peerDependencies": {
-        "eslint": "7.x",
+        "eslint": "8.x",
         "eslint-config-prettier": "8.x",
         "eslint-plugin-eslint-comments": "3.x",
         "eslint-plugin-import": "2.x",
-        "eslint-plugin-jest": "24.x",
-        "eslint-plugin-prettier": "3.x",
-        "eslint-plugin-unicorn": "33.x"
+        "eslint-plugin-jest": "27.x",
+        "eslint-plugin-prettier": "4.x",
+        "eslint-plugin-unicorn": "46.x",
+        "prettier": "2.x"
     },
     "optionalDependencies": {
         "eslint-plugin-node": "11.x"
     },
     "devDependencies": {
-        "husky": "^6.0.0",
-        "np": "^7.5.0",
-        "prettier": "2.3.1"
+        "husky": "^8.0.3",
+        "np": "^7.6.4"
     },
     "engines": {
         "node": ">=12"
