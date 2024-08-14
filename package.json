@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-vidhill",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "Personal eslint config preferences for own open source projects",
     "main": "index.js",
     "scripts": {
